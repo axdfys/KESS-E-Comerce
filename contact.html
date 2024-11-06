@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <title>Login KESS</title>
+  </head>
+  <body>
+    <div class="AXDFYScontainer">
+      <div class="AXDFYSnavbar">
+        <div class="AXDFYSlogo">
+          <img src="images/logo.png" alt="Logo" width="120px" />
+        </div>
+        <nav>
+          <ul id="AXDFYSMenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"><img src="images/cart.png" alt="cart" width="30px" height="30px" /></a>
+        <img src="images/menu.png" alt="menu" class="AXDFYSmenu-icon" onclick="AXDFYSmenutoggle()" />
+      </div>
+
+      <div class="AXDFYSsmall-container AXDFYSsingle-pruduct">
+        <div class="AXDFYSrow">
+          <div class="AXDFYScol-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Page -->
+    <div class="AXDFYScontact-container">
+      <form action="https://api.web3forms.com/submit" method="POST" class="AXDFYScontact-left">
+        <div class="AXDFYScontact-left-title">
+          <h2>Get in touch</h2>
+          <hr />
+        </div>
+        <input type="hidden" name="access_key" value="036737e2-fe74-462f-ba59-44e2b085fa54" />
+        <input type="text" name="name" placeholder="Your Name" class="AXDFYScontact-inputs" required />
+        <input type="email" name="email" placeholder="Your Email" class="AXDFYScontact-inputs" required />
+        <textarea name="message" id="" placeholder="Your Message" class="AXDFYScontact-inputs" required></textarea>
+        <button type="submit">Submit <img src="/images/arrow_icon.png" alt="arrow_icon" /></button>
+      </form>
+      <div class="AXDFYScontact-right">
+        <img src="/images/right_img.png" alt="" />
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="AXDFYSfooter">
+      <div class="AXDFYScontainer">
+        <div class="AXDFYSrow">
+          <div class="AXDFYSfooter-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and Ios mobile phone</p>
+            <div class="AXDFYSapp-logo">
+              <img src="images/play-store.png" alt="logo playstore" />
+              <img src="images/app-store.png" alt="logo appstore" />
+            </div>
+          </div>
+          <div class="AXDFYSfooter-col-2">
+            <img src="images/logo.png" alt="logo" />
+            <p>Our Purpose Is To Sustainbly Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+          </div>
+          <div class="AXDFYSfooter-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="AXDFYSfooter-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <a href="https://www.facebook.com/Axdfys"><li>Facebook</li></a>
+              <a href="https://x.com/Axdfys"><li>Twiter</li></a>
+              <a href="https://www.instagram.com/axdfys_/"><li>Instagram</li></a>
+              <a href="https://www.youtube.com/@anandafasyaislami1156"><li>Youtube</li></a>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="AXDFYScopyright">Copyright 2024 - Ananda Fasya Islami</p>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script>
+      var AXDFYSMenuItems = document.getElementById("AXDFYSMenuItems");
+      AXDFYSMenuItems.style.maxHeight = "0px";
+      function AXDFYSmenutoggle() {
+        if (AXDFYSMenuItems.style.maxHeight == "0px") {
+          AXDFYSMenuItems.style.maxHeight = "200px";
+        } else {
+          AXDFYSMenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>

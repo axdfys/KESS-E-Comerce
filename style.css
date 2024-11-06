@@ -1,0 +1,720 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", "sans-serif";
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.AXDFYSnavbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+p {
+  color: #555;
+}
+
+.AXDFYScontainer {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.AXDFYSrow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.AXDFYScol-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.AXDFYScol-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+.AXDFYScol-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+.AXDFYSbtn {
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+
+.AXDFYSbtn:hover {
+  background: #563434;
+}
+
+.AXDFYSheader {
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.AXDFYSheader .AXDFYSrow {
+  margin-top: 70px;
+}
+
+.AXDFYScategories {
+  margin: 70px 0;
+}
+
+.AXDFYScol-3 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.AXDFYScol-3 img {
+  width: 100%;
+}
+
+.AXDFYSsmall-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.AXDFYScol-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.AXDFYScol-4 img {
+  width: 100%;
+}
+
+.AXDFYStitle {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+
+.AXDFYStitle::after {
+  content: "";
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h4 {
+  color: #555;
+  font-weight: normal;
+}
+
+.AXDFYScol-4 p {
+  font-size: 14px;
+  color: red;
+}
+
+.AXDFYSrating p {
+  color: orange;
+}
+
+.AXDFYScol-4:hover {
+  transform: translateY(-5px);
+}
+
+.AXDFYSoffer {
+  background: radial-gradient(#fff, #ffd6d6);
+  margin-top: 80px;
+  padding: 30px 0;
+}
+
+.AXDFYScol-2 .AXDFYSoffer-img {
+  padding: 50px;
+}
+
+small {
+  color: #555;
+}
+
+.AXDFYStestimonial {
+  padding-top: 100px;
+}
+
+.AXDFYStestimonial .AXDFYScol-3 {
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.AXDFYStestimonial .AXDFYScol-3:hover {
+  transform: translateY(-10px);
+}
+
+.AXDFYStestimonial .AXDFYScol-3 img {
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.fa.fa-quote-left {
+  font-size: 34px;
+  color: #ff523b;
+}
+
+.AXDFYScol-3 p {
+  font-size: 12px;
+  margin: 12px 0;
+  color: #777;
+}
+
+.AXDFYStestimonial .AXDFYScol-3 h3 {
+  font-weight: 600;
+  color: #555;
+  font-size: 16px;
+}
+
+.AXDFYSbrands {
+  margin: 100px auto;
+}
+
+.AXDFYScol-5 {
+  width: 160px;
+}
+
+.AXDFYScol-5 img {
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.AXDFYScol-5 img:hover {
+  filter: grayscale(0);
+}
+
+.AXDFYSfooter {
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+
+.AXDFYSfooter p {
+  color: #8a8a8a;
+}
+
+.AXDFYSfooter h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.AXDFYSfooter-col-1,
+.AXDFYSfooter-col-2,
+.AXDFYSfooter-col-3,
+.AXDFYSfooter-col-4 {
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.AXDFYSfooter-col-1 {
+  flex-basis: 30%;
+}
+
+.AXDFYSfooter-col-2 {
+  flex: 1;
+  text-align: center;
+}
+
+.AXDFYSfooter-col-2 img {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.AXDFYSfooter-col-3,
+.AXDFYSfooter-col-4 {
+  flex-basis: 12%;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.AXDFYSapp-logo {
+  margin-top: 20px;
+}
+
+.AXDFYSapp-logo img {
+  width: 140px;
+}
+
+.AXDFYSfooter hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+
+.AXDFYSfooter ul li {
+  color: #777;
+}
+
+.AXDFYScopyright {
+  text-align: center;
+}
+
+.AXDFYSmenu-icon {
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #333;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  nav ul li a {
+    color: #fff;
+  }
+
+  .AXDFYSmenu-icon {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.AXDFYSrow-2 {
+  justify-content: space-between;
+  margin: 100px auto 50px;
+}
+
+select {
+  border: 1px solid #ff523b;
+  padding: 5px;
+}
+
+select:focus {
+  outline: none;
+}
+
+.AXDFYSpage-btn {
+  margin: 0 auto 80px;
+}
+
+.AXDFYSpage-btn span {
+  display: inline-block;
+  border: 1px solid #ff523b;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.AXDFYSpage-btn span:hover {
+  background: #ff523b;
+  color: #fff;
+}
+
+.AXDFYSsingle-pruduct {
+  margin-top: 80px;
+}
+
+.AXDFYSsingle-pruduct .AXDFYScol-2 img {
+  padding: 0;
+}
+
+.AXDFYSsingle-pruduct .AXDFYScol-2 {
+  padding: 20px;
+}
+
+.AXDFYSsingle-pruduct h4 {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.AXDFYSsingle-pruduct select {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.AXDFYSsingle-pruduct input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #ff523b;
+}
+
+input:focus {
+  outline: none;
+}
+
+.AXDFYSsmall-img-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AXDFYSsmall-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+.AXDFYScart-page {
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.AXDFYScart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th {
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background: #ff523b;
+  font-weight: normal;
+}
+
+td {
+  padding: 10px 5px;
+}
+
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+td a {
+  color: #ff523b;
+  font-size: 12px;
+}
+
+td img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.AXDFYStotal-price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.AXDFYStotal-price table {
+  border-top: 3px solid #ff523b;
+  width: 100%;
+  max-width: 400px;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+th:last-child {
+  text-align: right;
+}
+
+.AXDFYSaccount-page {
+  margin-top: -100px;
+  padding: 50px 0;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.AXDFYSform-container {
+  background: #fff;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.AXDFYSform-container span {
+  font-weight: bold;
+  padding: 0 10px;
+  color: #555;
+  cursor: pointer;
+  width: 100px;
+  display: inline-block;
+}
+
+.AXDFYSform-btn {
+  display: inline-block;
+}
+
+.AXDFYSform-container form {
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130px;
+}
+
+form input {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+
+form .AXDFYSbtn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+form .AXDFYSbtn:focus {
+  outline: none;
+}
+
+form a {
+  font-size: 12px;
+}
+
+.AXDFYScontact-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: radial-gradient(#fff, #ffd6d6);
+  margin-top: -80px;
+}
+
+.AXDFYScontact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.AXDFYScontact-left-title h2 {
+  font-weight: 600;
+  color: #000;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.AXDFYScontact-left-title hr {
+  border: none;
+  width: 120px;
+  height: 5px;
+  background-color: #ff523b;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.AXDFYScontact-inputs {
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #555;
+  border-radius: 50px;
+}
+
+.AXDFYScontact-left textarea {
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.AXDFYScontact-inputs:focus {
+  border: 2px solid #ff523b;
+}
+
+.AXDFYScontact-inputs::placeholder {
+  color: #8a8a8a;
+}
+
+.AXDFYScontact-left button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background-color: #ff523b;
+  cursor: pointer;
+}
+
+.AXDFYScontact-left button img {
+  height: 15px;
+}
+
+.AXDFYScontact-right img {
+  width: 500px;
+}
+
+.AXDFYSabout-container {
+  margin-top: -80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.AXDFYScard {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.AXDFYScard:hover {
+  transform: scale(1.05);
+}
+
+.AXDFYSprofile-photo {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.2em;
+}
+
+p {
+  color: #777;
+  font-size: 0.9em;
+}
+
+@media only screen and (max-width: 600px) {
+  .AXDFYSrow {
+    text-align: center;
+  }
+
+  .AXDFYScol-2,
+  .AXDFYScol-3,
+  .AXDFYScol-4 {
+    flex-basis: 100%;
+  }
+
+  .AXDFYSsingle-pruduct .AXDFYSrow {
+    text-align: left;
+  }
+
+  .AXDFYSsingle-pruduct .AXDFYScol-2 {
+    padding: 20px 0;
+  }
+
+  .AXDFYSsingle-pruduct h1 {
+    font-size: 26px;
+    line-height: 22px;
+  }
+
+  .AXDFYScart-info p {
+    display: none;
+  }
+
+  .AXDFYScontact-inputs {
+    width: 80vw;
+  }
+
+  .AXDFYScontact-right {
+    display: none;
+  }
+
+  .AXDFYScard {
+    width: 90%;
+    padding: 20px;
+    margin: 10px auto;
+  }
+
+  .AXDFYScard h2 {
+    font-size: 1.2em;
+  }
+
+  .AXDFYScard p {
+    font-size: 0.9em;
+  }
+}
